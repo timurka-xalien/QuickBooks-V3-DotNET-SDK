@@ -6,9 +6,6 @@ using System;
 
 namespace Intuit.Ipp.OAuth2PlatformClient
 {
-    /// <summary>
-    /// DiscoveryUrlHelper class
-    /// </summary>
     public static class DiscoveryUrlHelper
     {
         /// <summary>

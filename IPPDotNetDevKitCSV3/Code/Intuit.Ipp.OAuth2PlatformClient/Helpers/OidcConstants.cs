@@ -3,14 +3,8 @@
 
 namespace Intuit.Ipp.OAuth2PlatformClient
 {
-    /// <summary>
-    /// Open id connect constants class
-    /// </summary>
     public static class OidcConstants
     {
-        /// <summary>
-        /// Authorize request query params
-        /// </summary>
         public static class AuthorizeRequest
         {
             //Authorize request query params
@@ -22,9 +16,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
            
         }
 
-        /// <summary>
-        /// AuthorizeErrors class
-        /// </summary>
         public static class AuthorizeErrors
         {
             // OAuth2 errors
@@ -48,9 +39,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
             //public const string RegistrationNotSupported = "registration_not_supported";
         }
 
-        /// <summary>
-        /// AuthorizeResponse class
-        /// </summary>
         public static class AuthorizeResponse
         {
             //Authorize response params 
@@ -72,10 +60,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
         //    public const string Issuer                = "iss";
         //}
 
-
-        /// <summary>
-        /// TokenRequest class
-        /// </summary>
         public static class TokenRequest
         {
             //Token request params
@@ -99,9 +83,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
         //    public const string Bearer = "bearer";
         //}
 
-        /// <summary>
-        /// TokenErrors class
-        /// </summary>
         public static class TokenErrors
         {
             //Token Error types
@@ -114,9 +95,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
             public const string InvalidScope            = "invalid_scope";
         }
 
-        /// <summary>
-        /// TokenResponse class
-        /// </summary>
         public static class TokenResponse 
         {
             //Token response params
@@ -131,9 +109,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
             //public const string BearerTokenType         = "Bearer";
         }
 
-        /// <summary>
-        /// TokenTypes class
-        /// </summary>
         public static class TokenTypes 
         {
             //Token types
@@ -151,9 +126,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
 
         //}
 
-        /// <summary>
-        /// GratTypes class
-        /// </summary>
         public static class GrantTypes
         {
            
@@ -199,9 +171,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
 
 
 
-        /// <summary>
-        /// Discovery class
-        /// </summary>
         public static class Discovery
         {
             public const string Issuer                                      = "issuer";
