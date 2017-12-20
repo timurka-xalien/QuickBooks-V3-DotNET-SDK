@@ -42,10 +42,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
 
     }
 
-
-    /// <summary>
-    /// Class for deserializing the Address returned
-    /// </summary>
     public class Address
     {
 
