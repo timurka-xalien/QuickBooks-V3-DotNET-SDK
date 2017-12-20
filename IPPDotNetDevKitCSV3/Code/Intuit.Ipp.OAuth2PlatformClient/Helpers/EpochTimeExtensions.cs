@@ -10,12 +10,9 @@ namespace Intuit.Ipp.OAuth2PlatformClient
     /// </summary>
     public static class EpochTimeExtensions
     {
-
         /// <summary>
         /// Converts the given date value to epoch time.
         /// </summary>
-        /// <param name="dateTime">dateTime</param>
-        /// <returns>long</returns>        
         public static long ToEpochTime(this DateTime dateTime)
         {
             var date = dateTime.ToUniversalTime();
@@ -27,8 +24,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
         /// <summary>
         /// Converts the given date value to epoch time.
         /// </summary>
-        /// <param name="dateTime">dateTime Offset value</param>
-        /// <returns>long</returns>  
         public static long ToEpochTime(this DateTimeOffset dateTime)
         {
             var date = dateTime.ToUniversalTime();
@@ -37,12 +32,9 @@ namespace Intuit.Ipp.OAuth2PlatformClient
             return ts;
         }
 
-
         /// <summary>
         /// Converts the given epoch time to a <see cref="DateTime"/> with <see cref="DateTimeKind.Utc"/> kind.
         /// </summary>
-        /// <param name="intDate"></param>
-        /// <returns>DateTime</returns>
         public static DateTime ToDateTimeFromEpoch(this long intDate)
         {
             var timeInTicks = intDate * TimeSpan.TicksPerSecond;
@@ -52,8 +44,6 @@ namespace Intuit.Ipp.OAuth2PlatformClient
         /// <summary>
         /// Converts the given epoch time to a UTC <see cref="DateTimeOffset"/>.
         /// </summary>
-        /// <param name="intDate"></param>
-        /// <returns>DateTimeOffset</returns>
         public static DateTimeOffset ToDateTimeOffsetFromEpoch(this long intDate)
         {
             var timeInTicks = intDate * TimeSpan.TicksPerSecond;

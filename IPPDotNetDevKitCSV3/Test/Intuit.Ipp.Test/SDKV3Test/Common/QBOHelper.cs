@@ -6897,8 +6897,7 @@ namespace Intuit.Ipp.Test
             String guid = Helper.GetGuid();
 
             Customer customer = new Customer();
-            customer.Taxable = true;
-            customer.TaxableSpecified = true;
+
             customer.GivenName = "GivenName";
             customer.MiddleName = "MiddleName";
             customer.FamilyName = "FamilyName";
@@ -6915,7 +6914,7 @@ namespace Intuit.Ipp.Test
 
             String guid = Helper.GetGuid();
             Customer customer = new Customer();
-            customer.Taxable = true;
+            customer.Taxable = false;
             customer.TaxableSpecified = true;
             PhysicalAddress billAddr = new PhysicalAddress();
             billAddr.Line1 = "Line1";
@@ -7188,8 +7187,6 @@ namespace Intuit.Ipp.Test
         {
             //update the properties of entity
             entity.GivenName = "ChangedName";
-            entity.Taxable = true;
-            entity.TaxableSpecified = true;
             return entity;
         }
 
